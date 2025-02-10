@@ -32,7 +32,7 @@ function App() {
       {/* Home/Summary Section */}
       <section id="home" className="home-section">
         <div className="profile-container">
-          <img src="/src/pf.jpg" alt="Ewa" className="profile-image" />
+          <img src="/pf.jpg" alt="Ewa" className="profile-image" />
           <div className="profile-text">
             <h1>Edun Oluwadamilola Ewaoluwa</h1>
             <h2>Data Scientist + Full Stack Developer</h2>
@@ -46,7 +46,7 @@ function App() {
         <h2>Projects</h2>
         <div className="projects-wrapper">
           <div className="project-card">
-            <img src="/src/retrowellness.png" alt="RetroWellness Project" className="project-image"/>
+            <img src="/retrowellness.png" alt="RetroWellness Project" className="project-image"/>
             <h3>RetroWellness</h3>
             <p>Description of project 1</p>
             <div className="project-links">
