@@ -1,8 +1,9 @@
 #root {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
+  overflow-x: hidden;
 }
 
 .logo {
@@ -210,7 +211,7 @@ h2 {
 }
 
 /* Projects Section */
-.projects-grid {
+.projects-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
@@ -224,6 +225,7 @@ h2 {
   transition: all 0.4s ease;
   position: relative;
   overflow: hidden;
+  width: 930px;
 }
 
 .project-card::before {
@@ -481,12 +483,32 @@ h2 {
   }
 
   .profile-image {
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
   }
 
   .project-card:hover {
     transform: translateY(-5px) scale(1.01);
+  }
+
+  #root {
+    padding: 0.5rem;
+  }
+
+  .portfolio {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .projects-wrapper {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+
+  .profile-container {
+    padding: 1.5rem;
   }
 }
 
@@ -506,4 +528,50 @@ h2 {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--purple);
+}
+
+/* Base styles */
+.app {
+  max-width: 100%;
+  overflow-x: hidden;
+  padding: 0 1rem;
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+  .projects-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+
+  .project-card {
+    max-width: 100%;
+    width: 340px;
+  }
+
+ /* .profile-image- for mobile and desktop */
+  /* Adjust text sizes for mobile */
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .app {
+    padding: 0 0.5rem;
+  }
+
+  .projects-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
 }
