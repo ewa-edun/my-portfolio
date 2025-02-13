@@ -24,6 +24,7 @@ function App() {
           <a href="#projects" onClick={toggleMenu}>Projects</a>
           <a href="#experience" onClick={toggleMenu}>Experience</a>
           <a href="#education" onClick={toggleMenu}>Education</a>
+          <a href="#certificates" onClick={toggleMenu}>Certificates</a>
           <a href="#hobbies" onClick={toggleMenu}>Hobbies</a>
           <a href="#contact" onClick={toggleMenu}>Contact</a>
         </nav>
@@ -142,6 +143,29 @@ function App() {
           {/* Add more education items */}
         </div>
       </section>
+
+
+{/* Certificate Section */}
+      <section id="certificates" className="section">
+        <h2>Ceritficates</h2>
+        <div className="education-container">
+          <div className="education-item">
+            <h3>Codedex Mini Holiday Hackathon</h3>
+            <h4> Codedex</h4>
+            <p className="date">Dec 2024</p>
+            <img src="project1-image.jpg" alt="Certificate 1" />
+          </div>
+
+          <div className="education-item">
+            <h3>Hack This Fall Hackathon</h3>
+            <h4> HTF</h4>
+            <p className="date">Dec 2024</p>
+            <img src="project1-image.jpg" alt="Certificate 1" />
+          </div>
+          {/* Add more certificates */}
+        </div>
+      </section>
+
 
       {/* Hobbies Section */}
       <section id="hobbies" className="section">
