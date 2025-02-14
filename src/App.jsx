@@ -33,7 +33,7 @@ function App() {
       {/* Home/Summary Section */}
       <section id="home" className="home-section">
         <div className="profile-container">
-          <img src="/src/pf.jpg" alt="Ewa" className="profile-image" />
+          <img src="/pf.jpg" alt="Ewa" className="profile-image" />
           <div className="profile-text">
             <h1>Edun Oluwadamilola Ewaoluwa</h1>
             <h2>Data Scientist + Full Stack Developer</h2>
@@ -47,7 +47,7 @@ function App() {
         <h2>Projects</h2>
         <div className="projects-grid">
           <div className="project-card">
-            <img src="/src/VSNE.png" alt="VSNE Project" className="project-image"/>
+            <img src="/VSNE.png" alt="VSNE Project" className="project-image"/>
             <div className="project-content">
               <h3>VSNE</h3>
               <p>The VSNE Career Mentor Bot -Sage- is designed to serve as a personalized career mentor for students and professionals. Sage helps users navigate the complex world of career development by providing insights, resources, and suggestions using AI to offer tailored advice, such as resume tips, job search strategies, and skill-building recommendations. Built with React, HTML, Vanilla CSS, Flask, SQLlite, OpenAI API, and Vercel.</p>
@@ -59,7 +59,7 @@ function App() {
           </div>
 
           <div className="project-card">
-            <img src="/src/WWYRD.png" alt="WWYRD Project" className="project-image"/>
+            <img src="/WWYRD.png" alt="WWYRD Project" className="project-image"/>
             <div className="project-content">
               <h3>WWYRD</h3>
               <p>What Would Your Role Model Do (WWYRD) is an interactive decision-making assistant inspired by iconic role models: Tony Stark, Jensen Huang, Manmohan Singh, Hedy Lamarr, Marie Curie, and Princess Diana (Princess of Wales). The app provides witty, personality-driven responses to help users make decisions, set goals, and stay on track with their resolutions. Built with React, CSS, Flask, SQLite, OpenAI API, Vercel, and Firebase.</p>
@@ -71,7 +71,7 @@ function App() {
           </div>
 
           <div className="project-card">
-            <img src="/src/HackBuddy.png" alt="HackBuddy Project" className="project-image"/>
+            <img src="/HackBuddy.png" alt="HackBuddy Project" className="project-image"/>
             <div className="project-content">
               <h3>HackBuddy</h3>
               <p>HackBuddy is a web app designed to enhance your hackathon experience. From tracking your upcoming hackathons to generating fun excuses and ensuring your submissions are on point, HackBuddy has your back. Built with React, CSS, and Vercel.</p>
@@ -83,7 +83,7 @@ function App() {
           </div>
 
           <div className="project-card">
-            <img src="/src/Viberoast.png" alt="VibeRoast Project" className="project-image"/>
+            <img src="/Viberoast.png" alt="VibeRoast Project" className="project-image"/>
             <div className="project-content">
               <h3>VibeRoast</h3>
               <p>A fun, lightweight web app that suggests workouts based on mood. It either roasts or overhypes users for extra motivation. Built with React, CSS, Javascript, and Vercel.</p>
@@ -95,7 +95,7 @@ function App() {
           </div>
 
           <div className="project-card">
-            <img src="/src/WordWise.png" alt="WordWise Project" className="project-image"/>
+            <img src="/WordWise.png" alt="WordWise Project" className="project-image"/>
             <div className="project-content">
               <h3>WordWise</h3>
               <p>WordWise is a lightweight and innovative vocabulary-building app tailored for high school students. The app combines simplicity with unique features to help students expand their vocabulary, track learning progress, and test retention through engaging quizzes. Built with React, CSS, Flask, SQLite, FireBase and Vercel.</p>
@@ -107,7 +107,7 @@ function App() {
           </div>
 
           <div className="project-card">
-            <img src="/src/sustainaquiz logo.png" alt="SustainAQuiz Project" className="project-image"/>
+            <img src="/sustainaquiz logo.png" alt="SustainAQuiz Project" className="project-image"/>
             <div className="project-content">
               <h3>Sustain-A-Quiz</h3>
               <p>SustainaQuiz is a fun, interactive, and educational quiz app designed to promote environmental sustainability. Through engaging questions and eco-friendly tips, users can learn about sustainability while earning points and climbing leaderboards. Built with React, CSS,and Vercel.</p>
@@ -119,7 +119,7 @@ function App() {
           </div>
 
           <div className="project-card">
-            <img src="/src/EcoLens.png" alt="EcoLens Project" className="project-image"/>
+            <img src="/EcoLens.png" alt="EcoLens Project" className="project-image"/>
             <div className="project-content">
               <h3>EcoLens</h3>
               <p>EcoLens is an AI-powered platform that helps users make sustainable choices: Eco-Fraud Detection (Uses AI and fingerprint scanning to analyze product labels and spot fake sustainability claims), Environmental Insights (Provides real-time alerts on air quality, water safety, and other environmental conditions), Personalized Tips (Suggests eco-friendly habits and health-conscious choices based on product usage). Built with React, Tailwind CSS, Javascript, Node.js, FireBase, Twilio, Fingerprint scanner.</p>
@@ -130,7 +130,7 @@ function App() {
           </div>
 
           <div className="project-card">
-            <img src="/src/retro-wellness.png" alt="RetroWellness Project" className="project-image"/>
+            <img src="/retro-wellness.png" alt="RetroWellness Project" className="project-image"/>
             <div className="project-content">
               <h3>RetroWellness</h3>
               <p>RetroWellness is a wellness app that prioritizes mental health and a balanced lifestyle. Its features include: Wellness plans tailored to the user's goals, Mood-to-music generator for uplifting vibes, Time capsule to save and reflect on memories, Community forums for support and shared growth, Chatbox to get more information and advice about health plans all presented in a retro-themed interface. Built with React, CSS and Vercel.</p>
@@ -208,7 +208,7 @@ function App() {
         <h2>Certificates</h2>
         <div className="certificates-grid">
           <div className="certificate-card">
-            <img src="/src/ai hack.png" alt="Certificate 1" className="certificate-image"/>
+            <img src="/ai hack.png" alt="Certificate 1" className="certificate-image"/>
             <div className="certificate-content">
               <h3>Hack The Future</h3>
               <h4>AI & Open Source Hackathon</h4>
@@ -217,7 +217,7 @@ function App() {
           </div>
 
           <div className="certificate-card">
-            <img src="/src/htf cert.png" alt="HackThisFall Certificate" className="certificate-image"/>
+            <img src="/htf cert.png" alt="HackThisFall Certificate" className="certificate-image"/>
             <div className="certificate-content">
               <h3>Hack This Fall Hackathon</h3>
               <h4>HTF</h4>
