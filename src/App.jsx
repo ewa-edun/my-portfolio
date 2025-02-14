@@ -45,60 +45,54 @@ function App() {
       {/* Projects Section */}
       <section id="projects" className="section">
         <h2>Projects</h2>
-        <div className="projects-wrapper">
+        <div className="projects-grid">
           <div className="project-card">
             <img src="/src/retrowellness.png" alt="RetroWellness Project" className="project-image"/>
-            <h3>RetroWellness</h3>
-            <p>Description of project 1</p>
-            <div className="project-links">
-              <a href="github-link" target="_blank" rel="noopener noreferrer">GitHub</a>
-              <a href="live-demo-link" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            <div className="project-content">
+              <h3>RetroWellness</h3>
+              <p>Description of project 1</p>
+              <div className="project-links">
+                <a href="github-link" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="live-demo-link" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              </div>
             </div>
           </div>
 
-          <br />
           <div className="project-card">
-            <img src="project1-image.jpg" alt="Project 1" />
-            <h3>Project 1</h3>
-            <p>Description of project 1</p>
-            <div className="project-links">
-              <a href="github-link" target="_blank" rel="noopener noreferrer">GitHub</a>
-              <a href="live-demo-link" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            <img src="project1-image.jpg" alt="Project 1" className="project-image"/>
+            <div className="project-content">
+              <h3>Project 1</h3>
+              <p>Description of project 1</p>
+              <div className="project-links">
+                <a href="github-link" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="live-demo-link" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              </div>
             </div>
-          </div> 
+          </div>
 
-          <br />
           <div className="project-card">
-            <img src="project1-image.jpg" alt="Project 1" />
-            <h3>Project 1</h3>
-            <p>Description of project 1</p>
-            <div className="project-links">
-              <a href="github-link" target="_blank" rel="noopener noreferrer">GitHub</a>
-              <a href="live-demo-link" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            <img src="project1-image.jpg" alt="Project 1" className="project-image"/>
+            <div className="project-content">
+              <h3>Project 1</h3>
+              <p>Description of project 1</p>
+              <div className="project-links">
+                <a href="github-link" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="live-demo-link" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              </div>
             </div>
-          </div> 
+          </div>
 
-          <br />
           <div className="project-card">
-            <img src="project1-image.jpg" alt="Project 1" />
-            <h3>Project 1</h3>
-            <p>Description of project 1</p>
-            <div className="project-links">
-              <a href="github-link" target="_blank" rel="noopener noreferrer">GitHub</a>
-              <a href="live-demo-link" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            <img src="project1-image.jpg" alt="Project 1" className="project-image"/>
+            <div className="project-content">
+              <h3>Project 1</h3>
+              <p>Description of project 1</p>
+              <div className="project-links">
+                <a href="github-link" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="live-demo-link" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              </div>
             </div>
-          </div> 
-
-          <br />
-          <div className="project-card">
-            <img src="project1-image.jpg" alt="Project 1" />
-            <h3>Project 1</h3>
-            <p>Description of project 1</p>
-            <div className="project-links">
-              <a href="github-link" target="_blank" rel="noopener noreferrer">GitHub</a>
-              <a href="live-demo-link" target="_blank" rel="noopener noreferrer">Live Demo</a>
-            </div>
-          </div> 
+          </div>
         </div>
       </section>
 
@@ -144,28 +138,47 @@ function App() {
         </div>
       </section>
 
-
-{/* Certificate Section */}
+      {/* Certificate Section */}
       <section id="certificates" className="section">
-        <h2>Ceritficates</h2>
-        <div className="education-container">
-          <div className="education-item">
-            <h3>Codedex Mini Holiday Hackathon</h3>
-            <h4> Codedex</h4>
-            <p className="date">Dec 2024</p>
-            <img src="project1-image.jpg" alt="Certificate 1" />
+        <h2>Certificates</h2>
+        <div className="certificates-grid">
+          <div className="certificate-card">
+            <img src="project1-image.jpg" alt="Certificate 1" className="certificate-image"/>
+            <div className="certificate-content">
+              <h3>Codedex Mini Holiday Hackathon</h3>
+              <h4>Codedex</h4>
+              <p className="date">Dec 2024</p>
+            </div>
           </div>
 
-          <div className="education-item">
-            <h3>Hack This Fall Hackathon</h3>
-            <h4> HTF</h4>
-            <p className="date">Dec 2024</p>
-            <img src="project1-image.jpg" alt="Certificate 1" />
+          <div className="certificate-card">
+            <img src="project1-image.jpg" alt="Certificate 2" className="certificate-image"/>
+            <div className="certificate-content">
+              <h3>Hack This Fall Hackathon</h3>
+              <h4>HTF</h4>
+              <p className="date">Dec 2024</p>
+            </div>
           </div>
-          {/* Add more certificates */}
+
+          <div className="certificate-card">
+            <img src="project1-image.jpg" alt="Certificate 2" className="certificate-image"/>
+            <div className="certificate-content">
+              <h3>Hack This Fall Hackathon</h3>
+              <h4>HTF</h4>
+              <p className="date">Dec 2024</p>
+            </div>
+          </div>
+
+          <div className="certificate-card">
+            <img src="project1-image.jpg" alt="Certificate 2" className="certificate-image"/>
+            <div className="certificate-content">
+              <h3>Hack This Fall Hackathon</h3>
+              <h4>HTF</h4>
+              <p className="date">Dec 2024</p>
+            </div>
+          </div>
         </div>
       </section>
-
 
       {/* Hobbies Section */}
       <section id="hobbies" className="section">
@@ -186,7 +199,7 @@ function App() {
         <br />
 
         <div className="hobbies-grid">
-        <div className="hobby-item">
+          <div className="hobby-item">
             <i className="hobby-icon">📔</i>
             <h3>Reading</h3>
             <p>Crafting beautiful pieces through crochet</p>
