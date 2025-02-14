@@ -308,7 +308,7 @@ h2 {
   margin: 0 auto;
 }
 
-.experience-item, .education-item {
+.experience-item {
   border-left: 3px solid var(--gold);
   padding: 1rem 2rem;
   margin-bottom: 2rem;
@@ -316,7 +316,7 @@ h2 {
   transition: all 0.3s ease;
 }
 
-.experience-item:hover, .education-item:hover {
+.experience-item:hover {
   transform: translateX(10px);
   background: rgba(128, 0, 128, 0.4);
   box-shadow: 0 0 20px rgba(255, 215, 0, 0.1);
