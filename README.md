@@ -7,3 +7,6 @@ get pics of RetroWellness, VSNE, WWYRD, HackBuddy, VibeRoast, WordWise, EcoLens,
 
 ## Certificates
 Codedex, Hack This Fall, United hacks, Hack Open Source and AI, etc...
+
+Immersing in Japanese animation and storytelling
+Exploring diverse worlds through books and literature

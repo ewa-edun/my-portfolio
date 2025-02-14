@@ -152,14 +152,27 @@ function App() {
             <h3>Content Manager</h3>
             <h4>SecureShop</h4>
             <p className="date">September 2024 - March 2025</p>
-            <p>Description of your role and achievements</p>
+            <p>
+              <ul>
+                <li>Creating posts for platforms like Instagram and TikTok to drive engagement and increase followers.</li>
+                <li>Producing video content, such as tutorials, interviews, product showcases, or promotional materials.</li>
+                <li>Scheduling and posting content regularly to keep the audience engaged.</li>
+              </ul>
+             </p>
           </div>
 
           <div className="experience-item">
             <h3>Podcast Host: Science</h3>
             <h4>Girl's girl podcast</h4>
             <p className="date">2024 - Present</p>
-            <p>Description of your role and achievements</p>
+            <p>
+              <ul>
+                <li>Produce and hosts science-focused episodes, breaking down complex topics for diverse audiences.</li>
+                <li>Collaborate with team members to plan, record, and edit episodes, ensuring quality content delivery.</li>
+                <li>Manage research and content creation for tech and science-related topics.</li>
+                <li>Engage with the audience to gather feedback and build a community around the podcast.</li>
+              </ul>
+             </p>
           </div>
         </div>
       </section>
@@ -172,14 +185,20 @@ function App() {
             <h3>Computer Science</h3>
             <h4> Constructor University</h4>
             <p className="date">2025 - 2028</p>
-            <p>Relevant coursework and achievements</p>
+            <p>Entering School in August 2025!</p>
           </div>
 
           <div className="experience-item">
             <h3>High School Diploma</h3>
             <h4>Bethel American International School</h4>
             <p className="date">2018 - 2024</p>
-            <p>Relevant coursework and achievements</p>
+            <p>
+              <ul>
+                <li>CGPA: 3.30</li>
+                <li>SAT: 1430 (660 English, 770 Mathematics)</li>
+                <li>Awards: Citizenship Award, BIMUN Best UNECA Position Paper, Second Place Elder's Essay, Best in Computer Studies and Physics, 'B' honour roll.</li>
+              </ul>
+           </p>
           </div>
         </div>
       </section>
@@ -189,16 +208,16 @@ function App() {
         <h2>Certificates</h2>
         <div className="certificates-grid">
           <div className="certificate-card">
-            <img src="project1-image.jpg" alt="Certificate 1" className="certificate-image"/>
+            <img src="/src/ai hack.png" alt="Certificate 1" className="certificate-image"/>
             <div className="certificate-content">
-              <h3>Codedex Mini Holiday Hackathon</h3>
-              <h4>Codedex</h4>
-              <p className="date">Dec 2024</p>
+              <h3>Hack The Future</h3>
+              <h4>AI & Open Source Hackathon</h4>
+              <p className="date">Jan 2025</p>
             </div>
           </div>
 
           <div className="certificate-card">
-            <img src="project1-image.jpg" alt="Certificate 2" className="certificate-image"/>
+            <img src="/src/htf cert.png" alt="HackThisFall Certificate" className="certificate-image"/>
             <div className="certificate-content">
               <h3>Hack This Fall Hackathon</h3>
               <h4>HTF</h4>
@@ -206,23 +225,6 @@ function App() {
             </div>
           </div>
 
-          <div className="certificate-card">
-            <img src="project1-image.jpg" alt="Certificate 2" className="certificate-image"/>
-            <div className="certificate-content">
-              <h3>Hack This Fall Hackathon</h3>
-              <h4>HTF</h4>
-              <p className="date">Dec 2024</p>
-            </div>
-          </div>
-
-          <div className="certificate-card">
-            <img src="project1-image.jpg" alt="Certificate 2" className="certificate-image"/>
-            <div className="certificate-content">
-              <h3>Hack This Fall Hackathon</h3>
-              <h4>HTF</h4>
-              <p className="date">Dec 2024</p>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -247,12 +249,12 @@ function App() {
           <div className="hobby-item">
             <i className="hobby-icon">📔</i>
             <h3>Reading</h3>
-            <p>Crafting beautiful pieces through crochet</p>
+            <p>Exploring diverse worlds through books and literature</p>
           </div>
           <div className="hobby-item">
             <i className="hobby-icon">📺</i>
             <h3>Anime</h3>
-            <p>Crafting beautiful pieces through crochet</p>
+            <p>Immersing in Japanese animation and storytelling</p>
           </div>
         </div>
       </section>
@@ -270,8 +272,8 @@ function App() {
             <a href="https://linkedin.com/in/oluwadamilola-edun" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </div>
           <div className="contact-item">
-            <i className="contact-icon">📱</i>
-            <p>+2348105686969</p>
+            <i className="contact-icon">🖥️</i>
+            <a href="https://github.com/ewa-edun" target="_blank" rel="noopener noreferrer">GitHub</a>
           </div>
         </div>
       </section>
