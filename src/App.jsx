@@ -70,6 +70,30 @@ function App() {
             </div>
           </div>
 
+  <div className="project-card">
+            <img src="/arcadia's choice thumbnail.png" alt="Arcadias Choice Project" className="project-image"/>
+            <div className="project-content">
+              <h3>Arcadia's Choice</h3>
+              <p>Arcadia's Choice combines the thrill of interactive storytelling with an educational twist on climate change. Navigate through stunning realms, answer challenging quizzes, and experience branching storylines where every decision matters. With a blend of Superflex AI, React, Tailwind CSS for frontend magic and Firebase powering the backend.</p>
+              <div className="project-links">
+                <a href="https://github.com/yp9435/arcadias_choice" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://arcadiaschoice.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <img src="/reverse thief thumbnail.png" alt="Reverse Thief Project" className="project-image"/>
+            <div className="project-content">
+              <h3>Reverse Thief</h3>
+              <p>Reverse Thief is an interactive phishing awareness game that flips the script on scammers. Players take on the role of a cybercriminal to understand how phishing attacks work while learning real-world cybersecurity defenses. Think of it as ethical scamming for education. Built with React, CSS, Firebase Firestore, and Gemini API.</p>
+              <div className="project-links">
+                <a href="https://github.com/ewa-edun/Reverse-thief" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://reverse-thief.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              </div>
+            </div>
+          </div>
+  
           <div className="project-card">
             <img src="/HackBuddy.png" alt="HackBuddy Project" className="project-image"/>
             <div className="project-content">
