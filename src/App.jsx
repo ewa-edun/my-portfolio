@@ -65,7 +65,7 @@ function App() {
               <p>What Would Your Role Model Do (WWYRD) is an interactive decision-making assistant inspired by iconic role models: Tony Stark, Jensen Huang, Manmohan Singh, Hedy Lamarr, Marie Curie, and Princess Diana (Princess of Wales). The app provides witty, personality-driven responses to help users make decisions, set goals, and stay on track with their resolutions. Built with React, CSS, Flask, SQLite, OpenAI API, Vercel, and Firebase.</p>
               <div className="project-links">
                 <a href="https://github.com/ewa-edun/WWRYD" target="_blank" rel="noopener noreferrer">GitHub</a>
-                <a href="https://wwryd.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                <a href="https://wwyrd.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
               </div>
             </div>
           </div>
